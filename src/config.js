@@ -1,1 +1,1 @@
-export const STAR_DENSITY = 10
+export const STAR_DENSITY = 4
