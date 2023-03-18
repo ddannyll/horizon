@@ -11,7 +11,7 @@ function BlackHole({className}) {
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shapeRendering="geometricPrecision" textRendering="geometricPrecision">
                 <ellipse rx="71.951271" ry="71.951271" transform="matrix(.994517 0 0 0.994517 150.287344 150)" fill="#ffe97f" strokeWidth="0" />
-                <ellipse rx="71.951271" ry="71.951271" transform="matrix(.781818 0 0 0.781818 150.287344 149.509975)" fill="#111" strokeWidth="0" />
+                <ellipse rx="71.951271" ry="71.951271" transform="matrix(.781818 0 0 0.781818 150.287344 149.509975)" fill="#18181B" strokeWidth="0" />
                 <ellipse 
                     className="blackhole-inner-spin"
                     rx="71.951271" ry="71.951271" transform="matrix(.65 0 0 0.65 150.287344 149.509975)" fill="rgba(41,41,41,0)" stroke="#fff" strokeWidth="7" strokeLinecap="round" strokeLinejoin="bevel" strokeDashoffset="9.866667" strokeDasharray="40,200" />

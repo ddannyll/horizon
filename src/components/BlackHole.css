@@ -6,32 +6,11 @@
 }
 
 .blackhole-inner-spin {
-    animation: dash 300s infinite;
+    animation: dashoffset 300s infinite;
 }
 
 
-
-/* @keyframes pulse {
-    0% {
-        filter: 
-        drop-shadow(0 0px 5px #fff1a8)
-        drop-shadow(0 0px 50px #ffea7f9b);
-    }
-
-    50% {
-        filter: 
-        drop-shadow(0 0px 5px #ffea7f)
-        drop-shadow(0 0px 70px #ffea7f9b);
-    }
-
-    100% {
-        filter: 
-        drop-shadow(0 0px 5px #fff1a8)
-        drop-shadow(0 0px 50px #ffea7f9b);
-    }
-} */
-
-@keyframes dash {
+@keyframes dashoffset {
     0% {
         stroke-dashoffset: 0;
     }
