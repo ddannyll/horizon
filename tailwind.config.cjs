@@ -14,7 +14,7 @@ module.exports = {
         }
       },
       animation: {
-        'slow-spin': 'slow-spin 20s linear infinite',
+        'slow-spin': 'slow-spin 15s linear infinite',
       }
     },
   },

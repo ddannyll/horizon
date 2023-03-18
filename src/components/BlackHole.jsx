@@ -7,7 +7,7 @@ function BlackHole({className}) {
                 <div className="blackhole-glow w-[150px] aspect-square bg-gradient-to-r from-indigo-300 to-[#FFE97F]  
                     rounded-full animate-slow-spin bg-[#FFE97F]"></div>
             </div>
-            <svg className={`blackhole-svg w-[200px] aspect-square absolute bottom-1/2 right-1/2 translate-x-1/2 translate-y-1/2 md:w-[400px] z-10`}
+            <svg className={`blackhole-svg w-[400px] aspect-square absolute bottom-1/2 right-1/2 translate-x-1/2 translate-y-1/2 z-10`}
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shapeRendering="geometricPrecision" textRendering="geometricPrecision">
                 <ellipse rx="71.951271" ry="71.951271" transform="matrix(.994517 0 0 0.994517 150.287344 150)" fill="#ffe97f" strokeWidth="0" />
