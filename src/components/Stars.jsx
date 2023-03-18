@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { STAR_DENSITY, STAR_FIELD_X, STAR_FIELD_Y } from "./config"
+import { STAR_DENSITY, STAR_FIELD_X, STAR_FIELD_Y } from "../config"
 
 function Stars({className}) {
     const background = useRef()
@@ -8,7 +8,6 @@ function Stars({className}) {
     useEffect(() => {
         const area = STAR_FIELD_X * STAR_FIELD_Y
         const numStars = Math.floor((area / 100000) * STAR_DENSITY)
-        console.log({numStars});
         const newStars = []
         for (let i = 0; i < numStars; i++) {
             const posX = rand(0, STAR_FIELD_X)
