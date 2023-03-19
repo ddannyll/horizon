@@ -30,7 +30,7 @@ function Stars({className}) {
 
 
     return (
-        <div className={`overflow-hidden ${className}`} ref={background}>
+        <div className={`${className}`} ref={background}>
             {stars}
         </div>
     )
