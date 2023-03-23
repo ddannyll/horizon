@@ -3,7 +3,7 @@
     filter:
         drop-shadow(0 0px 1px #ffffff)
         drop-shadow(0 0px 5px #fff1a8)
-        drop-shadow(0 0px 20px #ffea7f9b);
+        /* drop-shadow(0 0px 20px #ffea7f9b); */
 }
 
 .blackhole-inner-spin {

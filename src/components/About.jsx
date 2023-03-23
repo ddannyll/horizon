@@ -8,27 +8,26 @@ export default function About() {
             <motion.img 
                 initial={{ 
                     opacity: 0,
-                    x:-100
+                    x:-25
                     
                 }}
                 whileInView={{ 
                     opacity: 1,
                     x:0
                 }}
-                transition={{ ease: 'easeOut' }}
-                src={Endurance} alt="Endurance" className="w-1/2 max-w-[450px]" />
+                src={Endurance} alt="Endurance" className="w-1/2 max-w-[450px]" 
+            />
             
             <motion.div 
                 initial={{ 
                     opacity: 0,
-                    x:100
+                    x:25
                     
                 }}
                 whileInView={{ 
                     opacity: 1,
                     x:0
                 }}
-                transition={{ ease: 'easeOut' }}
                 className="max-w-2xl flex flex-col gap-y-5 text-sm  md:text-base" >
                 <div className="p-6 border text-center rounded-lg">
                     <h1 className="text-lg md:text-xl">01. I'm a penultimate computer science student</h1>

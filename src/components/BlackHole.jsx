@@ -8,7 +8,7 @@ function BlackHole({className}) {
                     rounded-full animate-slow-spin bg-[#FFE97F]"></div>
             </div>
             <div className="w-full h-full absolute grid place-content-center">
-                <svg className={`blackhole-svg w-[400px] aspect-square  z-10`}
+                <svg className={`blackhole-svg w-[300px] md:w-[400px] aspect-square  z-10`}
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shapeRendering="geometricPrecision" textRendering="geometricPrecision">
                     <ellipse rx="71.951271" ry="71.951271" transform="matrix(.994517 0 0 0.994517 150.287344 150)" fill="#ffe97f" strokeWidth="0" />
