@@ -2,9 +2,10 @@ import { useEffect, useRef, useState } from 'react'
 import BlackHole from './BlackHole'
 import Stars from './Stars'
 import Typed from 'typed.js'
+import ChevronDown from '../assets/chevron-down.svg'
 import { EXTRA_QUOTES, QUOTES } from '../config'
 
-function Home () {
+function Home ({nextSection}) {
     const typedElement = useRef(null)
   
     useEffect(() => {
@@ -20,6 +21,11 @@ function Home () {
       })
       return () => {typed.destroy()}
     }, [])
+
+    const scrollToNext = () => {
+      console.log(nextSection);
+      nextSection.current.scrollIntoView({behavior: "smooth"})
+    }
   
     return (
       <div className="App h-screen relative">
@@ -29,6 +35,9 @@ function Home () {
             </div>
         </div>
         <BlackHole className="absolute top-0 w-full h-full"/>
+        <button onClick={scrollToNext} className='absolute bottom-0 w-full flex justify-center py-5 '>
+          <img src={ChevronDown} alt="chevron down" className='w-7 animate-bounce'/>
+        </button>
       </div>
     )
 }
