@@ -9,7 +9,7 @@ function Home () {
   
     useEffect(() => {
       const typed = new Typed(typedElement.current, {
-        strings: EXTRA_QUOTES,
+        strings: QUOTES,
         typeSpeed: 50,
         backSpeed: 200,
         backDelay: 3000,
