@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "vite build --base=/horizon/",
+    "predeploy": "vite build --base=https://ddannyll.github.io/horizon/",
     "deploy": "gh-pages -d dist "
   },
   "dependencies": {
