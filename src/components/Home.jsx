@@ -23,7 +23,6 @@ function Home ({nextSection}) {
     }, [])
 
     const scrollToNext = () => {
-      console.log(nextSection);
       nextSection.current.scrollIntoView({behavior: "smooth"})
     }
   

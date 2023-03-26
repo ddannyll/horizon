@@ -44,13 +44,13 @@ export default function About() {
                     of my favourite things to do - I am always eager to learn new things and solve problems.
                 </p>
                 <div className="flex gap-x-10 justify-around md:justify-start">
-                    <a href={Resume} className="profile-btn">
+                    <a href={Resume} className="profile-btn" target="_blank">
                         Resume
                     </a>
-                    <a href="https://github.com/ddannyll" className="profile-btn">
+                    <a href="https://github.com/ddannyll" className="profile-btn" target="_blank">
                         Github
                     </a>
-                    <a href="https://www.linkedin.com/in/ddannyll/" className="profile-btn">
+                    <a href="https://www.linkedin.com/in/ddannyll/" className="profile-btn" target="_blank">
                         LinkedIn
                     </a>
                 </div>
