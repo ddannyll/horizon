@@ -45,7 +45,7 @@ export default function About() {
                 </p>
                 <div className="flex gap-x-10 justify-around md:justify-start">
                     <a href={Resume} className="profile-btn">
-                        ResumeE
+                        Resume
                     </a>
                     <a href="" className="profile-btn">
                         Github
