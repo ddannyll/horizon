@@ -13,7 +13,7 @@ function Home ({nextSection}) {
         strings: QUOTES,
         typeSpeed: 50,
         backSpeed: 200,
-        backDelay: 3000,
+        backDelay: 1500,
         cursorChar: '█',
         loopCount: Infinity,
         fadeOut: true,
@@ -30,7 +30,7 @@ function Home ({nextSection}) {
     return (
       <div className="App h-screen relative">
         <div className="p-10 h-1/3 mx-auto flex text-center justify-center text-white font-mono text-2xl relative z-10 ">
-            <div className="border h-fit w-[500px] p-6 bg-zinc-900">
+            <div className="border h-fit w-[500px] p-6 bg-zinc-900 rounded-lg">
               <span ref={typedElement}></span>
             </div>
         </div>
