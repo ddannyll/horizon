@@ -47,10 +47,10 @@ export default function About() {
                     <a href={Resume} className="profile-btn">
                         Resume
                     </a>
-                    <a href="" className="profile-btn">
+                    <a href="https://github.com/ddannyll" className="profile-btn">
                         Github
                     </a>
-                    <a href="" className="profile-btn">
+                    <a href="https://www.linkedin.com/in/ddannyll/" className="profile-btn">
                         LinkedIn
                     </a>
                 </div>
