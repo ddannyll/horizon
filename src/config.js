@@ -20,5 +20,5 @@ export const EXTRA_QUOTES = [
 ]
 export const QUOTES = [
     "Horizon.", 
-    "Daniel Nguyen Portfolio Website",
+    "Daniel Nguyen Portfolio",
 ]
