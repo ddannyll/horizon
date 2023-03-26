@@ -1,4 +1,5 @@
 import Endurance from "../assets/enduranceDetail.svg"
+import Resume from "../assets/resume.pdf"
 import { motion } from 'framer-motion'
 
 export default function About() {
@@ -43,8 +44,8 @@ export default function About() {
                     of my favourite things to do - I am always eager to learn new things and solve problems.
                 </p>
                 <div className="flex gap-x-10 justify-around md:justify-start">
-                    <a href="/resume.pdf" className="profile-btn">
-                        Resume
+                    <a href={Resume} className="profile-btn">
+                        ResumeE
                     </a>
                     <a href="" className="profile-btn">
                         Github
