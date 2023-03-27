@@ -22,16 +22,63 @@ function BlackHole({ className }) {
                 </svg> */}
 
                 
-                <svg className={`blackhole-svg w-[300px] md:w-[400px] aspect-square  z-10`} xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="eyxV0fk5wBN1" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-                    <ellipse rx="71.9513" ry="71.9513" transform="matrix(.856194 0 0 0.856194 143.335 143.825)" fill="#ffe97f" stroke-width="0" />
-                    <ellipse rx="71.9513" ry="71.9513" transform="matrix(.781818 0 0 0.781818 143.335 143.335)" fill="#292929" stroke-width="0" />
-                    <ellipse 
-                        className="blackhole-inner-spin"
-                        rx="71.9513" ry="71.9513" transform="matrix(.711008 0 0 0.711008 143.335 143.335)" fill="rgba(41,41,41,0)" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel" stroke-dashoffset="9.86667" stroke-dasharray="40,200" />
-                    <ellipse rx="78.3327" ry="6.78595" transform="matrix(1.099243 0 0 0.260289 143.047 143.335)" fill="#ffe97f" stroke="rgba(255,233,127,0)" />
-                    <path d="M86.923521,143.33462c0,0-18.981106-.49-27.062001-.49c8.719232-1.240378,20.096839,3.42028,27.268685-20.43481-9.016456,22.449136-.206684,20.92481-.206684,20.92481Z" transform="translate(-.651404 0.490375)" fill="#ffe97f" stroke="#ffe97f" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M86.923521,143.33462c0,0-18.981106-.49-27.062001-.49c8.719232-1.240378,20.365529,4.417354,27.537375-19.437736-9.016456,22.449136-.475374,19.927736-.475374,19.927736Z" transform="matrix(-1 0 0 1 287.586213 0.49038)" fill="#ffe97f" stroke="#ffe97f" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="" fill="none" stroke="#3f5787" stroke-width="0.6" />
+                <svg
+                    className="blackhole-svg w-[300px] md:w-[400px] aspect-square  z-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    shapeRendering="geometricPrecision"
+                    textRendering="geometricPrecision"
+                    viewBox="0 0 300 300"
+                    >
+                    <ellipse
+                        fill="#fff"
+                        strokeWidth="0"
+                        rx="71.951"
+                        ry="71.951"
+                        transform="matrix(.8562 0 0 .8562 143.335 143.825)"
+                    ></ellipse>
+                    <ellipse
+                        fill="#292929"
+                        strokeWidth="0"
+                        rx="71.951"
+                        ry="71.951"
+                        transform="matrix(.78182 0 0 .78182 143.335 143.335)"
+                    ></ellipse>
+                    <ellipse
+                        className='blackhole-inner-spin'
+                        fill="rgba(41,41,41,0)"
+                        stroke="#fff"
+                        strokeDasharray="40,200"
+                        strokeDashoffset="9.867"
+                        strokeLinecap="round"
+                        strokeLinejoin="bevel"
+                        strokeWidth="2"
+                        rx="71.951"
+                        ry="71.951"
+                        transform="matrix(.711 0 0 .711 143.335 143.335)"
+                    ></ellipse>
+                    <ellipse
+                        fill="#fff"
+                        stroke="rgba(255,233,127,0)"
+                        rx="78.333"
+                        ry="6.786"
+                        transform="matrix(1.09924 0 0 .26029 143.047 143.335)"
+                    ></ellipse>
+                    <path
+                        fill="#fff"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M86.924 143.335s-18.982-.49-27.062-.49c8.719-1.24 20.096 3.42 27.268-20.435-9.016 22.449-.206 20.925-.206 20.925z"
+                        transform="translate(-.651 .49)"
+                    ></path>
+                    <path
+                        fill="#fff"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M86.924 143.335s-18.982-.49-27.062-.49c8.719-1.24 20.365 4.417 27.537-19.438-9.017 22.449-.475 19.928-.475 19.928z"
+                        transform="matrix(-1 0 0 1 287.586 .49)"
+                    ></path>
                 </svg>
             </div>
         </div>
