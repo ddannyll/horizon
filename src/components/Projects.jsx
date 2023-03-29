@@ -30,6 +30,7 @@ function Projects() {
             <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
+                transition={{delay:0.1}}
                 className="px-10 py-6 mb-10 border rounded-lg text-center text-xl mx-auto"
             >
                 03. Things I've created

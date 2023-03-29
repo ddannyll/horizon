@@ -32,6 +32,7 @@ export default function Skills() {
             <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
+                transition={{delay:0.1}}
                 className="px-10 py-6 border rounded-lg text-center text-xl h-fit mb-10">
                 02. Here are some of my skills
             </motion.h1>
