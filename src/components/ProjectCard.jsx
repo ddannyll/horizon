@@ -1,21 +1,31 @@
-function ProjectCard ({name, image, description, }) {
+function ProjectCard ({heading, subheading, image, description, }) {
     return (
-        <div className="group max-w-[400px] border">
+        <div className="group max-w-xs border flex flex-col md:max-w-sm">
             <div className="p-6">
                 <h2 className="text-lg">
-                    Battleship
+                    {heading}
                 </h2>
-                <p className="text-white/60">
-                    React.js, Node.js, Express.js
+                <p className="text-white/60 text-sm">
+                    {subheading}
                 </p>
             </div>
-            <div className="border-y w-full aspect-square overflow-hidden">
+            <div className="border-y w-full aspect-[5/4] overflow-hidden">
                 <img 
                     className="object-cover h-full w-full opacity-50 transition-all group-hover:opacity-100 group-hover:scale-105"
-                    src="https://user-images.githubusercontent.com/80935652/216802406-ca45868d-0531-4795-b010-a41fa712aafb.png" alt="Image of project" />
+                    src={image} alt="Image of project" />
             </div>
             <div className="p-6 text-white/60">
-                <p>A recreation of the classic naval combat board game, Battleship!</p>
+                <p>{description}</p>
+            </div>
+            <div className="flex flex-col justify-end grow">
+                <div className="flex">
+                    <a href="" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                        Source
+                    </a>
+                    <a href="" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                        Demo
+                    </a>
+                </div>
             </div>
         </div>
     )
