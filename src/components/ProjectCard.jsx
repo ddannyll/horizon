@@ -19,10 +19,10 @@ function ProjectCard ({heading, subheading, image, description, source, demo}) {
             </div>
             <div className="flex flex-col justify-end grow">
                 <div className="flex">
-                    <a href={source} target="_blank" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                    <a href={source} target="_blank" className="w-full border text-center py-3 transition-all hover:bg-pop hover:text-zinc-900 ">
                         Source
                     </a>
-                    <a href={demo} target="_blank" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                    <a href={demo} target="_blank" className="w-full border text-center py-3 transition-all hover:bg-pop hover:text-zinc-900">
                         Demo
                     </a>
                 </div>
