@@ -1,6 +1,6 @@
 function ProjectCard ({heading, subheading, image, description, source, demo}) {
     return (
-        <div className="group max-w-xs border flex flex-col md:max-w-sm">
+        <div className="group max-w-xs border flex flex-col h-full md:max-w-sm">
             <div className="p-6">
                 <h2 className="text-lg">
                     {heading}
