@@ -26,7 +26,7 @@ const item = {
 
 function Projects() {
     return (
-        <div className="container px-5 mx-auto mb-24 min-h-screen flex flex-col justify-center">
+        <div className="container px-5 mx-auto mb-24 min-h-screen flex flex-col justify-end mt-[30vh]">
             <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
