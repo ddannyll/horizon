@@ -1,4 +1,4 @@
-function ProjectCard ({heading, subheading, image, description, }) {
+function ProjectCard ({heading, subheading, image, description, source, demo}) {
     return (
         <div className="group max-w-xs border flex flex-col md:max-w-sm">
             <div className="p-6">
@@ -19,10 +19,10 @@ function ProjectCard ({heading, subheading, image, description, }) {
             </div>
             <div className="flex flex-col justify-end grow">
                 <div className="flex">
-                    <a href="" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                    <a href={source} target="_blank" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
                         Source
                     </a>
-                    <a href="" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
+                    <a href={demo} target="_blank" className="w-full border text-center py-3 hover:bg-pop hover:text-zinc-900">
                         Demo
                     </a>
                 </div>

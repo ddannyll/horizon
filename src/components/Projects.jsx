@@ -13,18 +13,24 @@ function Projects () {
                     subheading="React.js, Express.js"
                     description="Fullstack application recreating the classic naval combat board game, Battleship! Features online play, across devices."
                     image="https://user-images.githubusercontent.com/80935652/216802406-ca45868d-0531-4795-b010-a41fa712aafb.png"
+                    source='https://github.com/ddannyll/battleship-frontend'
+                    demo='https://ddannyll.github.io/battleship-frontend/'
                 />
                 <ProjectCard 
                     heading="Onigiri"
                     subheading="React.js"
                     description="Memory game featuring tasty Japanese sweets and savouries!"
                     image="https://user-images.githubusercontent.com/80935652/213840856-91b65260-7a22-43e8-a8e8-44c1208f54cb.png"
+                    source='https://github.com/ddannyll/onigiri'
+                    demo='https://ddannyll.github.io/onigiri/'
                 />
                 <ProjectCard 
                     heading="Balance"
                     subheading="React.js"
                     description="Website to manage monthly finances. Features expense breakdown, custom expenses and automatic budget calculation."
                     image={Balance}
+                    source='https://github.com/ddannyll/balance'
+                    demo='https://ddannyll.github.io/balance/'
                 />
             </div>
         </div>
