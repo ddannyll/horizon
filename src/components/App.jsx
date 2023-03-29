@@ -4,6 +4,7 @@ import Stars from "./Stars"
 import { useEffect, useRef } from "react"
 import About from "./About"
 import Skills from "./Skills"
+import Projects from "./Projects"
 import './App.css'
 
 
@@ -20,6 +21,7 @@ function App() {
             <div ref={mainRef} className="main bg-zinc-900 text-zinc-50 overflow-hidden">
                 <About />
                 <Skills />
+                <Projects />
             </div>
         </div>
     )

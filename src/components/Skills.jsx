@@ -29,16 +29,12 @@ export default function Skills() {
     return (
         <section
             className="container mx-auto flex flex-col items-center px-5 h-screen justify-center md:mt-[-20vh]">
-            <motion.div
+            <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{
-                    type: "linear",
-                    duration: 0.5,
-                }}
-                className="p-6 border rounded-lg text-center h-fit max-w-full w-[450px] mb-10">
-                <h1 className="text-xl">02. Here are some of my skills</h1>
-            </motion.div>
+                className="p-6 border rounded-lg text-center text-xl h-fit max-w-full w-[450px] mb-10">
+                02. Here are some of my skills
+            </motion.h1>
             <motion.ul
                 initial="hidden"
                 whileInView="visible"
