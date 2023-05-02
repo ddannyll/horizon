@@ -28,7 +28,7 @@ export default function Skills() {
 
     return (
         <section
-            className="container mx-auto flex flex-col items-center px-5 h-screen justify-center md:mt-[-20vh]">
+            className="container mx-auto flex flex-col items-center px-5 h-screen justify-center md:mt-[-10vh]">
             <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
