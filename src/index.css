@@ -12,10 +12,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 255, 255, 0.75);
+    background: #ffe97f;
 }
 
 .profile-btn {
     @apply inline border-l border-pop w-fit px-4 py-2 transition duration-100 hover:bg-pop hover:text-zinc-900
 }
+
 

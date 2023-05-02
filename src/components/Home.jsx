@@ -34,8 +34,9 @@ function Home ({nextSection}) {
             </div>
         </div>
         <BlackHole className="absolute top-0 w-full h-full"/>
-        <button onClick={scrollToNext} className='absolute bottom-0 w-full flex justify-center py-5 '>
-          <img src={ChevronDown} alt="chevron down" className='w-7 animate-bounce'/>
+        <button onClick={scrollToNext} className='absolute bottom-0 w-full flex justify-center py-5 text-white flex-col items-center text-center gap-y-5'>
+          <p className='opacity-80'>Scroll Down</p>
+          <img src={ChevronDown} alt="chevron down" className='w-10 animate-bounce'/>
         </button>
       </div>
     )
