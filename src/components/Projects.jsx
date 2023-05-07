@@ -54,12 +54,12 @@ function Projects() {
                 </motion.li>
                 <motion.li variants={item}>
                     <ProjectCard
-                        heading="Onigiri"
+                        heading="Pathfinder"
                         subheading="React.js"
-                        description="Memory game featuring tasty Japanese sweets and savouries!"
-                        image="https://user-images.githubusercontent.com/80935652/213840856-91b65260-7a22-43e8-a8e8-44c1208f54cb.png"
-                        source="https://github.com/ddannyll/onigiri"
-                        demo="https://ddannyll.github.io/onigiri/"
+                        description="Web application used to visualise and teach popular pathfinding algorithms"
+                        image="https://user-images.githubusercontent.com/80935652/236669044-99afceb4-01d8-4c27-b4e2-f9fb39ba6492.png"
+                        source="https://github.com/ddannyll/pathfinder"
+                        demo="https://ddannyll.github.io/pathfinder/"
                     />
                 </motion.li>
                 <motion.li variants={item}>
