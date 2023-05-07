@@ -56,7 +56,7 @@ function Projects() {
                     <ProjectCard
                         heading="Pathfinder"
                         subheading="React.js"
-                        description="Web application used to visualise and teach popular pathfinding algorithms"
+                        description="Web application used to visualise and teach popular pathfinding algorithms."
                         image="https://user-images.githubusercontent.com/80935652/236669044-99afceb4-01d8-4c27-b4e2-f9fb39ba6492.png"
                         source="https://github.com/ddannyll/pathfinder"
                         demo="https://ddannyll.github.io/pathfinder/"
