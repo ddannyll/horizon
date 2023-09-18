@@ -6,6 +6,7 @@ import About from "./About"
 import Skills from "./Skills"
 import Projects from "./Projects"
 import './App.css'
+import Experience from "./Experience"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
             <div ref={mainRef} className="main bg-zinc-900 text-zinc-50 overflow-hidden">
                 <About />
+                <Experience></Experience>
                 <Skills />
                 <Projects />
             </div>
