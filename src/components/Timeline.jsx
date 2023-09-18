@@ -6,7 +6,8 @@ export default function Timeline({nodes, className}) {
     {nodes?.map((node) => { 
       return <li key={node.title} className="relative ml-10">         
         <h3 className="text-lg">{node.title}</h3>
-        <p className="text-white/50">{node.description}</p>
+        <h4 className="text-sm text-white/50 italic">{node.subtitle}</h4>
+        <p className="mt-4 text-white/50">{node.description}</p>
         <IconCircleFilled className="text-zinc-600 absolute w-3 h-3 -left-10 top-1 -translate-x-1/2"/>
       </li>      
       })}

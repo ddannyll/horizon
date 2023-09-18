@@ -47,11 +47,10 @@ export default function Skills() {
                         Programming
                     </h2>
                     <ul className="list-disc list-inside pl-2">
-                        <li>JavaScript</li>
-	    		<li>TypeScript</li>
+	    		        <li>TypeScript</li>
                         <li>Python</li>
+                        <li>Go</li>
                         <li>Java</li>
-                        <li>C</li>
                     </ul>
                 </motion.li>
                 <motion.li variants={item} className="">
@@ -62,7 +61,7 @@ export default function Skills() {
                     <ul className="list-disc list-inside pl-2">
                         <li>HTML</li>
                         <li>CSS (+Tailwind)</li>
-                        <li>React.js (+Redux)</li>
+                        <li>React.js (+Next.js)</li>
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>Flask</li>
@@ -76,6 +75,7 @@ export default function Skills() {
                     <ul className="list-disc list-inside pl-2">
                         <li>Linux</li>
                         <li>Git</li>
+                        <li>SQL</li>
                         <li>CLI/Bash</li>
                     </ul>
                 </motion.li>
