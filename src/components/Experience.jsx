@@ -1,27 +1,22 @@
-import { IconCircle, IconCircleFilled } from "@tabler/icons-react";
 import Header from "./Header";
+import Timeline from "./Timeline";
 
 export default function Experience () {
-   return <section className="container mx-auto min-h-screen flex flex-col justify-center align-center">
+   return <section className="container mx-auto min-h-screen flex flex-col justify-center items-center gap-10">
     <Header>
       01. Experience and Achievements
     </Header>
-    <ul className="border-l border-zinc-600 flex flex-col gap-10">
-      <li className="relative ml-10">
-        <h3>SafetyCulture</h3>
-        <p className="text-white/50">Description Description Description </p>
-        <IconCircleFilled className="text-zinc-600 absolute w-4 h-4 -left-10 top-1 -translate-x-1/2"></IconCircleFilled>
-      </li>
-      <li className="relative ml-10">
-        <h3>SafetyCulture</h3>
-        <p className="text-white/50">Description Description Description </p>
-        <IconCircleFilled className="text-zinc-600 absolute w-4 h-4 -left-10 top-1 -translate-x-1/2"></IconCircleFilled>
-      </li>
-      <li className="relative ml-10">
-        <h3>SafetyCulture</h3>
-        <p className="text-white/50">Description Description Description </p>
-        <IconCircleFilled className="text-zinc-600 absolute w-4 h-4 -left-10 top-1 -translate-x-1/2"></IconCircleFilled>
-      </li>
-    </ul>
+    <Timeline
+      nodes={[
+        {
+          title: "SafetyCulture A{i} Accelerator Program",
+          description: "Participated in a 4-week hackathon-style AI workshop, learning and applying engineering skills through informative seminars and invaluable mentorship from two staff software engineers. Finished the program achieving the 'People's Choice' award."
+        },
+        {
+          title: "1st Place in CSESoc Flagship Hackathon 2023",
+          description:"Particpated in a 24 hour hackathon, conceptualising and developing a working solution with 4 other students. Finished the hackathon acheiving 1st place in the Code Stream."
+        }
+      ]}
+    />
   </section>
 }
