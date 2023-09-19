@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Experience() {
   return (
-    <section className="container mx-auto min-h-screen flex-col justify-center items-center gap-10">
+    <section className="container mx-auto min-h-screen flex flex-col justify-center items-center gap-10">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
