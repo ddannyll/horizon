@@ -1,3 +1,4 @@
+import Balance from "../assets/balance.png";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 
@@ -43,18 +44,6 @@ function Projects() {
       >
         <motion.li variants={item}>
           <ProjectCard
-            heading="Prepper"
-            subheading="Next.js, Go, OpenAI"
-            description="Fullstack interview preparation assistant. Features AI generated mock interviews based on job listings, voice-to-text conversion, and AI generated feedback."
-            image={
-              "https://user-images.githubusercontent.com/80935652/270550995-5ccfb28a-6a66-418f-b765-7893ed628a17.png"
-            }
-            source="https://github.com/ddannyll/prepper"
-            demo="https://prepper.vercel.app"
-          />
-        </motion.li>
-        <motion.li variants={item}>
-          <ProjectCard
             heading="Battleship"
             subheading="React.js, Express.js"
             description="Fullstack application recreating the classic naval combat board game, Battleship! Features online play, across devices."
@@ -71,6 +60,16 @@ function Projects() {
             image="https://user-images.githubusercontent.com/80935652/236669044-99afceb4-01d8-4c27-b4e2-f9fb39ba6492.png"
             source="https://github.com/ddannyll/pathfinder"
             demo="https://ddannyll.github.io/pathfinder/"
+          />
+        </motion.li>
+        <motion.li variants={item}>
+          <ProjectCard
+            heading="Balance"
+            subheading="React.js"
+            description="Website to manage monthly finances. Features expense breakdown, custom expenses and automatic budget calculation."
+            image={Balance}
+            source="https://github.com/ddannyll/balance"
+            demo="https://ddannyll.github.io/balance/"
           />
         </motion.li>
       </motion.ul>
